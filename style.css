@@ -1,0 +1,66 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.header-links-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.header-links > a:link {
+  color: gray;
+  text-decoration: underline;
+}
+
+.date,
+.letter,
+.post-body {
+  color: gray;
+}
+
+.letter {
+  float: left;
+  line-height: 85%;
+  width: .7em;
+  font-size: 400%;
+  font-family: georgia;
+}
+
+.main-title,
+.continue {
+  color: red;
+}
+
+.post {
+
+}
+
+.continue {
+  text-align: right;
+}
+
+.footer-links {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+
+
+a:link {
+  color: red;
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.copyright {
+  justify-content: flex-end;
+}
