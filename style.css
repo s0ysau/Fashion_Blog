@@ -1,7 +1,20 @@
+html {
+  border-left: 10px solid lightgray;
+}
+
 body {
   display: flex;
   flex-direction: column;
   margin-left: 30px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  max-width: 1000px;
+}
+
+header,
+main,
+footer {
+  padding: 1rem 2rem;
 }
 
 .header-links-container {
@@ -17,8 +30,13 @@ body {
 
 .date,
 .letter,
-.post-body {
+.post-body,
+.copyright {
   color: gray;
+}
+
+.date {
+  font-size: 20px;
 }
 
 .letter {
@@ -29,9 +47,19 @@ body {
   font-family: georgia;
 }
 
+article {
+  margin-bottom: 4rem;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 2rem;
+}
+
+img {
+  width: 100%;
+}
+
 .main-title,
 .continue {
-  color: red;
+  color: tomato;
 }
 
 .post {
@@ -51,7 +79,7 @@ body {
 
 
 a:link {
-  color: red;
+  color: tomato;
   text-decoration: none;
 }
 
@@ -59,8 +87,4 @@ ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
-
-.copyright {
-  justify-content: flex-end;
 }
