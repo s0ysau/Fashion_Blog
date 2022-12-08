@@ -63,7 +63,8 @@ img {
 }
 
 
-.continue {
+.continue,
+.copyright {
   text-align: right;
 }
 
